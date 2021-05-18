@@ -41,7 +41,7 @@ function toggleElement(item) {
 			? "rotate(180deg)"
 			: "none";
 	lastChild.style.transition = "all 0.3s ease-in";
-
+	console.log(siblingStyle.getPropertyValue("opacity"));
 	firstChild.style.fontWeight =
 		firstChildStyle.getPropertyValue("font-weight") === "400" ? "700" : "400";
 	sibling.style.margin = "0 0 1rem 0";
