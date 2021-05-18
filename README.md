@@ -27,12 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Solution PC](./images/Solution%20Pc.png)
+![Solution Mobile](./images/Solution%20Mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](./images/Solution%20Mobile.png)
+- Live Site URL: [Live site](https://your-live-site-url.com)
 
 ## My process
 
@@ -41,39 +42,47 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+To be able to float an element with the use of animation. I have learned how to use keyframes as well. In terms of javascript, I was able to manipulate elements with style properties.
 
 ```css
-.proud-of-this-css {
-	color: papayawhip;
+.img-woman {
+	animation: floating-PC-woman 3s ease-in-out infinite;
+}
+
+@keyframes floating-PC-woman {
+	0% {
+		transform: translate(-19%, 20%);
+	}
+	50% {
+		transform: translate(-19%, 17%);
+	}
+	100% {
+		transform: translate(-19%, 20%);
+	}
 }
 ```
 
 ```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
-};
+lastChild.style.transform =
+	lastChildStyle.getPropertyValue("transform") === "none"
+		? "rotate(180deg)"
+		: "none";
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+To be able to manipulate more elements with javascript. Also, to practice more mobile first workflow.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Positioning of Elements](https://github.com/sammy007-debug/Fully-Responsible-FAQ-Accordion) - This helped me get an idea of the position of elements as well as the size of container for desktop size.
+- [w3schools](https://www.w3schools.com/) - This helped me get familiarised with the style propoerties used in javascript.
+- [GeeksforGeeks](https://www.geeksforgeeks.org/css-floating-animation/) - This helped me to understand more about animations.
+- [Element Manipulation](https://github.com/gsemyong/faq-accordion-card) - This helped to understand the javascript side of the project. It gave me an idea as well on how to think of the solution logically.
 
 ## Author
 
