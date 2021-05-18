@@ -1,3 +1,4 @@
+//opens the answer container
 window.addEventListener("DOMContentLoaded", () => {
 	let openedAccordionItem = null;
 	const questions = document.querySelectorAll(".question-container");
@@ -19,6 +20,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 function toggleElement(item) {
 	if (item === null) {
+		//close right away if null
 		return;
 	}
 
@@ -30,6 +32,7 @@ function toggleElement(item) {
 	const lastChild = item.lastElementChild;
 	const lastChildStyle = getComputedStyle(lastChild);
 
+	//get the first element of questionContainer (heading tag)
 	const firstChild = item.firstElementChild;
 	const firstChildStyle = getComputedStyle(firstChild);
 
