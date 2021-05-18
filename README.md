@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Solution PC](./images/Solution%20Pc.png)
+![Solution PC](./images/Solution%20PC.png)
 ![Solution Mobile](./images/Solution%20Mobile.png)
 
 ### Links
 
-- Solution URL: [Solution](./images/Solution%20Mobile.png)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/fidellim/FAQ-Accordion-Card)
+- Live Site URL: [Live site](https://faq-accordion-card-fidellim-fem.netlify.app/)
 
 ## My process
 
